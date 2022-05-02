@@ -63,7 +63,6 @@ section ul{
 table{
     width: 100%;
     text-align: left;
-    box-sizing: content-box;
     border-collapse: collapse;
     font-size: 20px;
 }
