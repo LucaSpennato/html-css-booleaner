@@ -1,18 +1,40 @@
-body{
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-div{
-    background-color: #5842b0; 
-    background-image: url("./img/pattern.png");
-    background-repeat: repeat-x;
-    background-size: contain;
-    width: 100%;
-    height: 100%;
+.top-head{
+    background-color: #4a97f6;
+    background-image: url("../img/pattern.png");
+    background-repeat: repeat;
+    background-size: auto;
+    background-position: top right;
 }
 
-div img{
-    width: 250px;
-    margin: 40px 0 0 5px;
+.top-head img{
+    width: 350px;
+    margin: 70px 0 10px 5px;
+}
+
+
+div.title{
+    font-size: 30px;
+    margin: 30px 5px;
+}
+
+.title p{
+    color: gray;
+}
+
+.sottotitolo{
+    font-size: 30px;
+}
+
+.data{
+    font-size: 20px;
+}
+
+p a{
+    text-decoration: none;
 }
