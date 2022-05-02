@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+div.title, main, footer{
+    margin: 0 10%;
+}
+
+.top-head{
+    background-color: #4a97f6;
+    background-image: url("../img/pattern.png");
+    background-repeat: repeat;
+    background-size: auto;
+    background-position: top right;
+}
+
+.top-head img{
+    width: 350px;
+    margin: 70px 0 10px 10%;
+}
+
+header{
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+header h1{
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+header .sottotitolo{
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+header .data{
+    font-size: 15px;
+    margin: 0;
+}
+header .sottotitolo, header .data{
+    color: gray;
+}
+
+main .img1{
+    width: 51%;
+}
+
+main .img2{
+    width: 525px; 
+}
+
+main{
+    font-weight: 800;
+}

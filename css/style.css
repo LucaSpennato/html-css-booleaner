@@ -44,11 +44,11 @@ div.title, main, footer{
 }
 
  main .img1{
-    width: 760px;
+    width: 52%;
 }
 
 main .img2{
-    width: 650px;
+    width: 44%;
 } 
 
 section p, section ul{
