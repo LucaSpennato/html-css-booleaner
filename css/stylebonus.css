@@ -28,6 +28,10 @@ a{
     text-decoration: none;
 }
 
+.title{
+    font-family: font-family: 'Roboto', sans-serif;;
+}
+
 header h1{
     font-size: 50px;
     margin-top: 15px;
@@ -47,6 +51,11 @@ header .sottotitolo, header .data{
     color: gray;
 }
 
+main{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
 main .img1{
     width: 51%;
 }
@@ -55,6 +64,52 @@ main .img2{
     width: 525px; 
 }
 
-main{
-    font-weight: 800;
+
+main .fonte-foto{
+    font-size: 15px;
+}
+
+section p, section li, section table, footer{
+    font-size: 20px;
+}
+
+ul{
+    padding: 15px;
+}
+
+table{
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+table th{
+    background-color: rgb(84, 84, 223);
+    color: white;
+}
+
+table td{
+   max-width: 200px;
+}
+
+table tr:nth-child(even){
+    background-color: lightblue;
+}
+
+footer .consigli-1{
+    background-image: url(../img/monitor.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
+    color: white;
+    margin: 10px 0;
+}
+
+footer .consigli-2{
+    background-image: url(../img/graph.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
+    color: white;
+    margin: 10px 0;
 }
